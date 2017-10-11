@@ -1,4 +1,4 @@
-package com.example.dxdrush.beziercurveforslowfastview;
+package com.example.dxdrush.beziercurveforslowfastview.util;
 
 import android.content.Context;
 
@@ -13,7 +13,7 @@ public class ScreenUtils {
         return (int) (values * scale + 0.5f);
     }
 
-    public static int px2dip(Context context, float pxValue) {
+    public static int px2dp(Context context, float pxValue) {
         float scale = context.getResources().getDisplayMetrics().density;
         return (int) (pxValue / scale + 0.5f);
     }

@@ -12,6 +12,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.example.dxdrush.beziercurveforslowfastview.util.ScreenUtils;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
